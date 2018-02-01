@@ -1,13 +1,16 @@
 <footer id="footer">
   <section>
-    <form method="POST" action="https://formspree.io/{{site.email}}">
+    <form name="footer-contact" netlify-honeypot="email-confirm" method="POST" action="/thank-you.html" netlify>
       <div class="field">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" />
       </div>
       <div class="field">
         <label for="email">Email</label>
-        <input type="text" name="email" id="email" />
+        <input type="email" name="email" id="email" />
+        <p class="hidden">
+          <label>Don’t fill this out: <input name="email-confirm" type="email"></label>
+        </p>
       </div>
       <div class="field">
         <label for="message">Message</label>
