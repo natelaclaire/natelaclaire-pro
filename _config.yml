@@ -4,7 +4,7 @@ bio:                'A full-stack web developer specializing in PHP and Javascri
 description:        "Technical musings of a full-stack web developer"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://natelaclaire.pro" # the base hostname & protocol for your site
 
 defaults:
 - scope:
