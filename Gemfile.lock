@@ -90,7 +90,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.8.0)
+  jekyll (~> 3.8.1)
   jekyll-feed
   jekyll-gist
   jekyll-mentions
